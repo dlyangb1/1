@@ -5,6 +5,8 @@ on:
     workflows: ["openwrt-builder"]
     types:
       - completed
+permissions:
+  contents: write
 
 jobs:
   release:
